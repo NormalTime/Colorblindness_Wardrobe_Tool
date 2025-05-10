@@ -106,4 +106,4 @@ Shirt 135 206 235 and pants 93 173 236 Match: 87.90%
 ## What do the results mean?
 - The tool will output every possible combination between clothes in the text file and how similar they are based on the euclidean distance between their rgb values
 - Higher matches (in terms of %) will be present for similar colors
-  - In the example above (3rd to last row) a shirt with the rgb values for sky blue has a 77.08% match with the rgb values for white pants
+  - In the example above (3rd to last row) a shirt with the rgb values for sky blue has a 70.31% match with the rgb values for white pants
