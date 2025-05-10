@@ -78,15 +78,16 @@ done
 - Example output using clothes.txt
 ```
 MATCHES %:
-Shirt 255 255 255 and pants 255 255 255 Match: 0.00%
-Shirt 255 255 255 and pants 0 0 0 Match: 100.00%
-Shirt 255 255 255 and pants 93 173 236 Match: 41.33%
-Shirt 0 0 0 and pants 255 255 255 Match: 100.00%
-Shirt 0 0 0 and pants 0 0 0 Match: 0.00%
-Shirt 0 0 0 and pants 93 173 236 Match: 69.52%
-Shirt 135 206 235 and pants 255 255 255 Match: 29.69%
-Shirt 135 206 235 and pants 0 0 0 Match: 77.08%
-Shirt 135 206 235 and pants 93 173 236 Match: 12.10%
+Shirt 255 255 255 and pants 255 255 255 Match: 100.00%
+Shirt 255 255 255 and pants 0 0 0 Match: 0.00%
+Shirt 255 255 255 and pants 93 173 236 Match: 58.67%
+Shirt 0 0 0 and pants 255 255 255 Match: 0.00%
+Shirt 0 0 0 and pants 0 0 0 Match: 100.00%
+Shirt 0 0 0 and pants 93 173 236 Match: 30.48%
+Shirt 135 206 235 and pants 255 255 255 Match: 70.31%
+Shirt 135 206 235 and pants 0 0 0 Match: 22.92%
+Shirt 135 206 235 and pants 93 173 236 Match: 87.90%
+
 ```
 
 # How to use the wardrobe tool
@@ -105,4 +106,4 @@ Shirt 135 206 235 and pants 93 173 236 Match: 12.10%
 ## What do the results mean?
 - The tool will output every possible combination between clothes in the text file and how similar they are based on the euclidean distance between their rgb values
 - Higher matches (in terms of %) will be present for similar colors
-  - In the example above (2nd to last row) a shirt with the rgb values for sky blue has a 77.08% match with the rgb values for black pants
+  - In the example above (3rd to last row) a shirt with the rgb values for sky blue has a 77.08% match with the rgb values for white pants
