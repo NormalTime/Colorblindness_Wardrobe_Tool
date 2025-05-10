@@ -1,0 +1,6 @@
+shirt 255 255 255
+pants 255 255 255
+shirt 0 0 0
+pants 0 0 0
+pants 93 173 236
+shirt 135 206 235
